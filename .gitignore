@@ -1,3 +1,4 @@
 .idea
 code_exercise/__pycache__/
 tests/.pytest_cache/
+tests/__pycache__/

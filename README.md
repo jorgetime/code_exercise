@@ -6,8 +6,14 @@ This repository contain a small example of how to unit test a function that chec
 1. [Download and install python](https://www.python.org/downloads/) following the instructions for your OS.
 2. [Download and install Poetry](https://python-poetry.org/docs/#installation) following the instructions for your OS.
 
-## Set up
+## Set up virtual environment
 Run the following command to install all the dependencies in a virtual environment
+```
+poetry install
+```
+
+## Activate virtual environment
+This command activates the virtual environment that was created in the previous step
 ```
 poetry install
 ```
@@ -15,4 +21,9 @@ poetry install
 ## Run unit tests
 ```
 pytest
+```
+
+## Exit virtual environment 
+```
+exit
 ```
