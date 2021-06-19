@@ -15,7 +15,7 @@ poetry install
 ## Activate virtual environment
 This command activates the virtual environment that was created in the previous step
 ```
-poetry install
+poetry shell
 ```
 
 ## Run unit tests
